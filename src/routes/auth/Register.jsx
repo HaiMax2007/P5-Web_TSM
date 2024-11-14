@@ -38,7 +38,7 @@ const Register = () => {
             <div className="input-group">
               <label htmlFor="confPas">confirm password</label>
               <div className="input-element">
-                <input type="confPas" name="confPas" required />
+                <input type="password" name="confPas" required />
                 <img src="lock.svg" alt="Lock" />
               </div>
             </div>

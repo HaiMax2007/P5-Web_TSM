@@ -1,6 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+import LogOutModal from "./LogOutModal";
 
 const NavBar = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
 
   return (
     <header className="navbar">
@@ -30,10 +36,15 @@ const NavBar = () => {
           <div className="bar"></div>
           <li className="nav-item">
             <img src="/logout.png" alt="Home" />
-            <a href="/">logout</a>
+            <button onClick={toggleModal}>logout</button>
           </li>
         </ul>
       </nav>
+      {
+        showModal && (
+          <LogOutModal onClose={toggleModal} />
+        )
+      }
     </header>
   );
 };

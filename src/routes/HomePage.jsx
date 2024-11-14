@@ -3,24 +3,6 @@ import NavBar from "../assets/NavBar";
 import Footer from "../assets/Footer";
 
 function HomePage() {
-  useEffect(() => {
-    const preventBackAndForwardNavigation = () => {
-      history.pushState(null, document.title, window.location.href);
-    };
-
-    preventBackAndForwardNavigation();
-
-    const handlePopState = () => {
-      preventBackAndForwardNavigation();
-      window.location.reload();
-    };
-
-    window.addEventListener("popstate", handlePopState);
-
-    return () => {
-      window.removeEventListener("popstate", handlePopState);
-    };
-  }, []);
   
   return (
     <div className="home">

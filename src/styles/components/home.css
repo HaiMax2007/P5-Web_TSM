@@ -1,11 +1,12 @@
 @keyframes bounce-on {
   50% {
     transform: translateY(-30px);
+    box-shadow: 0 10px 10px 0 black;
   }
 }
 
 .home {
-  background: linear-gradient(to bottom, var(--clr-dark-purple), #7885dc);
+  background: linear-gradient(to bottom, var(--clr-dark-purple), #7885dc);  
   color: var(--clr-light);
 }
 
@@ -212,7 +213,7 @@
   gap: 1rem;
   padding: 1rem;
   position: relative;
-  box-shadow: 0 10px 10px 0 black;
+  box-shadow: none;
   animation: bounce-on 1s infinite;
 }
 
