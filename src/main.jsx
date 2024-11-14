@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 import ErrorPage from "./routes/ErrorPage.jsx";
-import Landing from "./routes/auth/landing.jsx";
+import Landing from "./routes/auth/Landing.jsx";
 import Login from "./routes/auth/Login.jsx";
 import Register from "./routes/auth/Register.jsx";
 import HomePage from "./routes/HomePage.jsx";
