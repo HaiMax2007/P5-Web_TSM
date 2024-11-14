@@ -1,0 +1,178 @@
+.login {
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--clr-dark-purple);
+  color: var(--clr-light);
+  position: relative;
+}
+
+.login .circle {
+  height: 100vh;
+  width: 800px;
+  border-radius: 0 50% 50% 0;
+  background-color: var(--clr-purple);
+  position: relative;
+  position: absolute;
+  z-index: 1;
+}
+
+.login .circle .circle-inner {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(202, 154, 228, 0.6);
+}
+
+.login .circle .circle-inner:first-child {
+  top: 15%;
+  left: 10%;
+}
+
+.login .circle .circle-inner:nth-child(2) {
+  left: 40%;
+  top: 30%;
+}
+
+.login .circle .circle-inner:nth-child(3) {
+  left: -5%;
+  bottom: -5%;
+}
+
+.login .main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 0 5rem;
+  position: relative;
+  z-index: 999;
+}
+
+.login .main .left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login .main .left p {
+  max-width: 500px;
+  text-align: center;
+  font-size: var(--size-3xl);
+  font-weight: bold;
+}
+
+.login .main .left .baAduh-img {
+  width: 380px;
+}
+
+.login .main .left .baAduh-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login .main .right {
+  width: 50%;
+  padding: 7rem 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.login .main .right h1 {
+  font-family: "Zen Dots", sans-serif;
+  text-transform: uppercase;
+  font-size: var(--size-5xl);
+}
+
+.login .main .right .desc {
+  text-transform: capitalize;
+  font-size: var(--size-xl);
+}
+
+.login .main .right form {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.login .main .right form .input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login .main .right form .input-group:not(:first-child) {
+  margin-top: 4rem;
+}
+
+.login .main .right form .input-group label {
+  text-transform: capitalize;
+  font-size: var(--size-xl);
+  font-weight: 500;
+}
+
+.login .main .right form .input-group .input-element {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.login .main .right form .input-group img {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 25px;
+}
+
+.login .main .right form .input-group input {
+  width: 100%;
+  color: var(--clr-light);
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--clr-light);
+  padding: 0 3rem 1rem 1rem;
+}
+
+.login .main .right form .input-group input:focus {
+  outline: none;
+  border-color: var(--clr-pink);
+}
+
+.login .main .right form button {
+  margin-top: 4rem;
+  padding: 1rem 0;
+  background-color: var(--clr-purple);
+  width: 100%;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: var(--size-xl);
+
+  transition: 0.2s ease-out;
+}
+
+.login .main .right form button:hover {
+  background: rgb(87, 104, 210, 0.5);
+}
+
+.login .main .right form .switch-auth {
+  margin-top: 0.8rem;
+  font-size: var(--size-lg);
+  text-transform: capitalize;
+}
+
+.login .main .right form .switch-auth a {
+  color: var(--clr-pink);
+  transition: 0.2s ease-in;
+}
+
+.login .main .right form .switch-auth a:hover {
+  text-shadow: 0 0 10px var(--clr-pink);
+}

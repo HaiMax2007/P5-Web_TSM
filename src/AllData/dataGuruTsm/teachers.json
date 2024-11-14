@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "I Gede Teges, S.Pd",
+        "mapel": "Kepala TSM",
+        "image": "/kepalaBengkel.png"
+    },
+    
+    {
+        "id": 2,
+        "name": "I Wayan Sumantra, S.Pd",
+        "mapel": "Pemeliharaan Sasis Sepeda Motor",
+        "image": "/anggota2.png"
+    },
+    {
+        "id": 3,
+        "name": "I Ketut Kariada, ST. MT",
+        "mapel": "Pemeliharaan Listrik Sepeda Motor",
+        "image": "/anggota3.png"
+    },
+    {
+        "id": 4,
+        "name": "Anak Agung Putu Ananta Putra, S.Pd",
+        "mapel":"Pemeliharaan Listrik Sepeda Motor",
+        "image": "/anggota4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "I Nyoman Triartha Putra, ST",
+        "mapel": "Pemeliharaan Sasis Sepeda Motor",
+        "image": "/anggota5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "I Nyoman Mudana, S.Pd",
+        "mapel": "Pemeliharaan Mesin Sepeda Motor",
+        "image": "/anggota6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "I Gusti Lanang Yoga Rafsandita, A.Md.,S.Pd",
+        "mapel": "Pemeliharaan Mesin Sepeda Motor",
+        "image": "/anggota7.jpg"
+    }
+]
